@@ -120,4 +120,7 @@ polygon.arrow-top {
     .typewrite {
         font-size: 2rem;
     }
+    .footer>#contact {
+        font-size: 1rem;
+    }
 }
