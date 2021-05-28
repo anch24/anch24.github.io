@@ -121,6 +121,7 @@ polygon.arrow-top {
         font-size: 2rem;
     }
     .footer>#contact {
+        word-spacing: 5px;
         font-size: 1rem;
     }
 }
