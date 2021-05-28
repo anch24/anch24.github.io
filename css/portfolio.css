@@ -45,8 +45,8 @@ body {
 }
 
 center {
-    margin-top: 4em !important;
-    font-size: 2rem;
+    margin-top: 7em !important;
+    /* font-size: 2rem; */
     color: #123C69 !important;
 }
 
@@ -120,8 +120,26 @@ polygon.arrow-top {
     .typewrite {
         font-size: 2rem;
     }
+
     .footer>#contact {
         word-spacing: 5px;
         font-size: 1rem;
+    }
+    center {
+        margin-top: 2em !important;
+        /* font-size: 2rem; */
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .navbar {
+        font-size: large !important;
+    }
+
+    .navbar-brand {
+        font-size: larger !important;
+    }
+    .typewrite {
+        font-size: 1.5rem;
     }
 }
