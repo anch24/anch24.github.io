@@ -1,0 +1,82 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EEE2DC;
+}
+
+.navbar {
+    background-color: #EEE2DC !important;
+    font-size: x-large !important;
+}
+
+.navbar-brand {
+    color: #AC3B61 !important;
+    font-size: xx-large !important;
+}
+
+.nav-link {
+    color: #EDC7B7 !important;
+}
+
+.nav-link.active {
+    color: #BAB2B5 !important;
+    border-bottom: 3px solid #BAB2B5;
+}
+
+.nav-link:hover {
+    color: #BAB2B5 !important;
+}
+
+center {
+    margin-top: 4em !important;
+    font-size: 2rem;
+    color: #123C69 !important;
+}
+
+.arrow-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* margin-top: 8em!important; */
+}
+
+/* Arrow & Hover Animation */
+#more-arrows {
+    width: 75px;
+    height: 65px;
+}
+
+#more-arrows:hover polygon {
+    fill: #fff;
+    transition: all 0.2s ease-out;
+}
+
+#more-arrows:hover polygon.arrow-bottom {
+    transform: translateY(-18px);
+}
+
+#more-arrows:hover polygon.arrow-top {
+    transform: translateY(18px);
+}
+
+polygon {
+    fill: #fff;
+    transition: all 0.2s ease-out;
+}
+
+polygon.arrow-middle {
+    opacity: 0.75;
+}
+
+polygon.arrow-top {
+    opacity: 0.5;
+}
+
+.card-promise {
+    background-color: #EEE2DC;
+    border: 0;
+}
+
+.footer>#contact {
+    word-spacing: 20px;
+}
