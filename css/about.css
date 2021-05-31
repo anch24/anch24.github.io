@@ -1,0 +1,61 @@
+.about {
+    margin-top: 7em !important;
+}
+
+.container-intro {
+    position: relative;
+    color: #123C69;
+}
+
+.intro {
+    /* width: 50px;
+    height: 50px; */
+    top: 50%;
+    position:absolute;
+}
+
+#label-skills,#label-tools {
+    margin-top: 3em;
+    font-size: 3rem !important;
+    color: #123C69;
+}
+
+#skillset {
+    color: #123C69;
+}
+
+.more-about {
+    margin-top: 3em;
+    font-size: 1.5rem !important;
+    color: #123C69;
+}
+
+.reach-me-btn {
+    background-color: #EDC7B7 !important;
+    color:aliceblue;
+}
+
+@media only screen and (max-width: 760px) {
+    .container-intro {
+        margin-top: 3em !important;
+    }
+    .intro {
+        text-align: center;
+    }
+
+    #label-skills {
+        margin-top: 4em !important;
+        text-align:center !important;
+    }
+    #label-tools {
+        margin-top: 1em !important;
+        text-align: center !important;
+    }
+    #skillset {
+        text-align: center !important;
+    }
+    .more-about {
+        font-size: 1em !important;
+        text-align: center;
+    }
+}
