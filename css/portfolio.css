@@ -108,6 +108,56 @@ polygon.arrow-top {
     font-size: 4rem !important;
 }
 
+.img-blur {
+    -webkit-filter: blur(4px);
+    /* Chrome, Safari, Opera */
+    filter: blur(4px);
+}
+
+.img-unhover {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.img-hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.work-card:hover .card-img-work,
+.work-card:focus .card-img-work {
+    /* transform: scale(1.02);
+  opacity:0.5; */
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+
+    -webkit-filter: blur(3px);
+    /* Chrome, Safari, Opera */
+    filter: blur(3px);
+}
+
+.work-card {
+    position: relative;
+}
+
+.work-btn {
+    color: #EEE2DC !important;
+    background-color: #123C69 !important;
+    border-color: #123C69 !important;
+    font-size: 1.5em;
+
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}
+
 @media only screen and (max-width: 700px) {
     #headline {
         font-size: 2rem !important;
@@ -125,6 +175,7 @@ polygon.arrow-top {
         word-spacing: 5px;
         font-size: 1rem;
     }
+
     center {
         margin-top: 2em !important;
         /* font-size: 2rem; */
@@ -139,6 +190,7 @@ polygon.arrow-top {
     .navbar-brand {
         font-size: larger !important;
     }
+
     .typewrite {
         font-size: 1.5rem;
     }
